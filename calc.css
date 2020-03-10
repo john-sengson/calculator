@@ -1,0 +1,50 @@
+body {
+   background-image: url("https://www.itl.cat/pngfile/big/16-162070_wallpaper-one-colour-blue-single-plain-solid-color.jpg");
+   background-position: center;
+   
+}
+
+h1{
+   text-align: center;
+  
+}
+
+.calculator{
+    text-align: center;
+    background: whitesmoke;
+    width: 40%;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+    margin: 0 auto;
+
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    
+}
+.button{
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+#calfunc{
+    background-color: orange;
+
+}
+
+.textbox{
+    width: 80%
+    max-content
+}
