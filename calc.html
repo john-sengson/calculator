@@ -11,48 +11,49 @@
       <script src="calc.js"></script>
 
       <body>
+        <div class = "border-calc">
           <h1>Sprint -5 Streeeetcchhhh</h1>
           <h1>Online Calculator</h1>
+        </div>
           <br>
           <br>
           <br>
           <br>
-          <div class = "calculator">
-            <form name= "form">
-                <input class= "textbox">
-            </form>
-          <table class = "table">
-              <tr class= "line1">
-                  <td><button class = "button" id = "calfunc">ac</button></td>
-                  <td><button class = "button" id = "calfunc">ce</button></td>
-                  <td><button class = "button" id = "calfunc">%</button></td>
-                  <td><button class = "button" id = "calfunc">/</button></td>
-              </tr>
-              <tr>
-                  <td><button class = "button">7</button></td>
-                  <td><button class = "button">8</button></td>
-                  <td><button class = "button">9</button></td>
-                  <td><button class = "button" id = "calfunc">*</button></td>
-              </tr>
-              <tr>
-                  <td><button class = "button">4</button></td>
-                  <td><button class = "button">5</button></td>
-                  <td><button class = "button">6</button></td>
-                  <td><button class = "button" id = "calfunc">-</button></td>
-              </tr>
-              <tr>
-                  <td><button class = "button">1</button></td>
-                  <td><button class = "button">2</button></td>
-                  <td><button class = "button">3</button></td>
-                  <td><button class = "button" id = "calfunc">+</button></td>
-              </tr>
-              <tr>
-                 <td><button class = "button">0</button></td>
-                 <td><button class = "button">.</button></td>
-                 <td><button class = "button" id = "calfunc">=</button></td>
-                 
-            </tr>
-          </table>
+          <div class="calculator">
+
+            <input type="text" class="calculator-screen" value="0" disabled />
+          
+            <div class="calculator-pad">
+          
+                <button type="button" class = "all-clear" value ="all-clear">AC</button>
+                <button type="button" class = "all-clear" value ="clear" >CE</button>
+                <button type="button" class = "operator" value ="%">&percnt;</button>
+                <button type="button" class = "operator" value ="/">&divide;</button>
+
+                <button type="button" value = "7">7</button>
+                <button type="button" value ="8">8</button>
+                <button type="button" value ="9">9</button>
+                <button type="button" class = "operator" value ="*">&times;</button>
+
+                <button type="button" value ="4">4</button>
+                <button type="button" value ="5">5</button>
+                <button type="button" value ="6">6</button>
+                <button type="button" class = "operator" value ="-">-</button>
+
+                <button type="button" value ="1">1</button>
+                <button type="button" value ="2">2</button>
+                <button type="button" valu e="3">3</button>
+                
+
+                <button type="button" value ="0">0</button>
+                <button type="button" value =".">.</button>
+                <button type="button" value ="=">=</button>
+                <button type="button" class = "operator" id = "longer-button" value ="+">+</button>
+
+
+
+             
+            </div>
           </div>
 
 
